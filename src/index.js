@@ -15,7 +15,7 @@ export class Pivot extends React.Component {
     }
 
     addCalculatedMeasure = (measure) => {
-        this.runScript(`flexmonster.addCalculatedMeasure(${this.stringifyParams(measure)})`); //?
+        this.runScript(`flexmonster.addCalculatedMeasure(${this.stringifyParams(measure)})`);
     }
     addCondition = (condition) => {
         this.runScript(`flexmonster.addCondition(${this.stringifyParams(condition)})`);

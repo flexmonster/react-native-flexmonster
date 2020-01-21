@@ -1,3 +1,4 @@
+
 var path = require('path');
 module.exports = [{
   entry: './src/index.js',
@@ -15,16 +16,29 @@ module.exports = [{
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['react']
+            "presets": [
+                "@babel/preset-env",
+                "@babel/preset-react"
+            ],
+            "plugins": [
+                [
+                  "@babel/plugin-proposal-class-properties"
+                ]
+            ]
           }
         }
+        // loader: 'babelify',
+        // query: {
+        //   presets: ['es2015', 'react']
+        // }
       }
     ]
   },
   externals: {
     'react': 'commonjs react', // this line is just to use the React dependency of our parent-testing-project instead of using our own React
-    'react-native': 'commonjs react-native',// this line is just to use the React-Dom dependency of our parent-testing-project instead of using our own React-Dom.
-    'react-native-webview': 'commonjs react-native-webview',// this line is just to use the React-Dom dependency of our parent-testing-project instead of using our own React-Dom.
+    "react-native": "commonjs react-dom",
+    "react-native-webview": "commonjs react-dom",
+    'flexmonster': 'commonjs flexmonster',
     'prop-types': 'commonjs prop-types'
   }
 }];

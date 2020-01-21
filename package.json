@@ -1,5 +1,5 @@
 {
-  "name": "react-native-flexmonster",
+  "name": "react-flexmonster",
   "version": "2.7.23",
   "license": "MIT",
   "description": "React 16.5+ Module for Flexmonster Pivot Table & Charts",
@@ -10,14 +10,18 @@
     "flexmonster": "latest",
     "prop-types": "^15.7.2",
     "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.1",
+    "react-native": "^0.61.5",
+    "react-native-webview": "^8.0.4"
   },
   "dependencies": {
     "@types/flexmonster": "latest",
     "flexmonster": "latest",
     "prop-types": "^15.7.2",
     "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.1",
+    "react-native": "^0.61.5",
+    "react-native-webview": "^8.0.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,8 +36,7 @@
     "pivottable",
     "pivotgrid",
     "pivotchart",
-    "react",
-    "reactnative"
+    "react"
   ],
   "author": {
     "name": "Flexmonster",
@@ -41,20 +44,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/flexmonster/react-native-flexmonster"
+    "url": "https://github.com/flexmonster/react-flexmonster"
   },
   "bugs": {
     "url": "https://flexmonster.com/forum/"
   },
   "homepage": "https://flexmonster.com/",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1",
-    "babel-preset-react": "^6.24.1",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-arrow-functions": "^7.8.3",
+    "@babel/plugin-transform-classes": "^7.8.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "babelify": "^10.0.0",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
     "style-loader": "^0.23.0",

@@ -22,7 +22,7 @@ expo start
 ```
 You can find more information here: [React Native: Getting Started](https://facebook.github.io/react-native/docs/getting-started)
 
-Add Flexmonster React module by running in the console:
+Add Flexmonster React Native module by running in the console:
 
 ```bash
 npm i react-native-flexmonster --save
@@ -62,8 +62,6 @@ render() {
   }
 }
 ```
-
-To see the result open your browser on `http://localhost:3000/`.
 
 ## <a name="usage"></a>Usage ##
 
