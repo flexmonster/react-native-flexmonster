@@ -360,7 +360,7 @@ export class Pivot extends React.Component {
                     toolbar: true,
                     height: ${height},
                     width: ${width},
-                    licenseKey: '${this.props.licenseKey}',
+                    licenseKey: '${this.props.licenseKey === undefined ? "" : this.props.licenseKey}',
                     report: JSON.parse('${JSON.stringify(this.props.report)}')
                 });
                 ${this.registerEvents()}

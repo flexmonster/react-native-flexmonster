@@ -16,8 +16,9 @@ If you don’t have React Native app, you can create it by running in the consol
 ```bash
 npm install -g expo-cli
 
-expo init my-app
+expo init my-app --template blank
 cd my-app
+npm install
 ```
 You can find more information here: [React Native: Getting Started](https://facebook.github.io/react-native/docs/getting-started)
 
@@ -30,27 +31,23 @@ npm i react-native-flexmonster --save
 Include `FlexmonsterReactNative` into `App.js`:
 
 ```bash
-import React from 'react';
-import { View } from 'react-native';
 import * as FlexmonsterReactNative from 'react-native-flexmonster';
 ```
 
 Insert a pivot table into `App.js`:
 
 ```bash
-class App extends React.Component {
-render() {
-    return (
-      <View style={{ flex: 1 }}>
+export default function App() {
+  return (
+    <View style={{ flex: 1 }}>
         <FlexmonsterReactNative.Pivot
           report="https://cdn.flexmonster.com/reports/report.json"
         />
       </View>
-    );
-  }
+  );
 }
 ```
-For better user experience, we recommend setting orientation the screen to `landscape`.
+For better user experience, we recommend setting orientation of the screen to `landscape`.
 
 Now you are ready to run the application.
 ```bash
