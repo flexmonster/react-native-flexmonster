@@ -31,31 +31,21 @@ npm i react-native-flexmonster --save
 Include `FlexmonsterReactNative` into `App.js`:
 
 ```bash
+import React from 'react';
+import { View } from 'react-native';
 import * as FlexmonsterReactNative from 'react-native-flexmonster';
 ```
 
 Insert a pivot table into `App.js`:
 
 ```bash
-class FlexmonsterReactNativeApp extends React.Component<{}, { licenseKey: string, report: object }> {
-  private flexmonsterRef = React.createRef<FlexmonsterReactNative.Pivot>();
-  constructor(props) {
-    super(props);
-    // .................... // your code here
-    this.state = {
-      // .................... // your code here
-      licenseKey: "LICENSE_KEY",
-      report: {
-        // add your report object here
-      }
-    }
-  }
+class FlexmonsterReactNativeApp extends React.Component {
 render() {
     return (
       <View style={{ flex: 1 }}>
         <FlexmonsterReactNative.Pivot
-          licenseKey={this.state.licenseKey}
-          report={this.state.report}
+          licenseKey="YOUR_LICENSE_KEY"
+          report="https://cdn.flexmonster.com/reports/report.json"
         />
       </View>
     );
