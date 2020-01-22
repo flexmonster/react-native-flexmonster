@@ -36,8 +36,8 @@ module.exports = [{
   },
   externals: {
     'react': 'commonjs react', // this line is just to use the React dependency of our parent-testing-project instead of using our own React
-    "react-native": "commonjs react-dom",
-    "react-native-webview": "commonjs react-dom",
+    "react-native": "commonjs react-native",
+    "react-native-webview": "commonjs react-native-webview",
     'flexmonster': 'commonjs flexmonster',
     'prop-types': 'commonjs prop-types'
   }
