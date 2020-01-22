@@ -16,14 +16,11 @@ module.exports = [{
         use: {
           loader: 'babel-loader',
           options: {
-            "presets": [
-                "@babel/preset-env",
-                "@babel/preset-react"
-            ],
+            "presets": ["module:metro-react-native-babel-preset"],
             "plugins": [
-                [
-                  "@babel/plugin-proposal-class-properties"
-                ]
+              [
+                "@babel/plugin-proposal-class-properties"
+              ]
             ]
           }
         }
@@ -38,7 +35,6 @@ module.exports = [{
     'react': 'commonjs react', // this line is just to use the React dependency of our parent-testing-project instead of using our own React
     "react-native": "commonjs react-native",
     "react-native-webview": "commonjs react-native-webview",
-    'flexmonster': 'commonjs flexmonster',
     'prop-types': 'commonjs prop-types'
   }
 }];
