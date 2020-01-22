@@ -18,7 +18,6 @@ npm install -g expo-cli
 
 expo init my-app
 cd my-app
-expo start
 ```
 You can find more information here: [React Native: Getting Started](https://facebook.github.io/react-native/docs/getting-started)
 
@@ -39,18 +38,23 @@ import * as FlexmonsterReactNative from 'react-native-flexmonster';
 Insert a pivot table into `App.js`:
 
 ```bash
-class FlexmonsterReactNativeApp extends React.Component {
+class App extends React.Component {
 render() {
     return (
       <View style={{ flex: 1 }}>
         <FlexmonsterReactNative.Pivot
-          licenseKey="YOUR_LICENSE_KEY"
           report="https://cdn.flexmonster.com/reports/report.json"
         />
       </View>
     );
   }
 }
+```
+For better user experience, we recommend setting orientation the screen to `landscape`.
+
+Now you are ready to run the application.
+```bash
+expo start
 ```
 
 ## <a name="usage"></a>Usage ##

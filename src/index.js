@@ -356,7 +356,7 @@ export class Pivot extends React.Component {
             <script>
                 new Flexmonster({
                     container: "#pivot-container",
-                    componentFolder: "",
+                    componentFolder: "https://cdn.flexmonster.com/",
                     toolbar: true,
                     height: ${height},
                     width: ${width},
