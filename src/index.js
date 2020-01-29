@@ -277,6 +277,8 @@ export class Pivot extends React.Component {
             "dataerror",
             "datafilecancelled",
             "dataloaded",
+            "drillthroughclose",
+            "drillthroughopen",
             "exportcomplete",
             "exportstart",
             "fieldslistclose",
