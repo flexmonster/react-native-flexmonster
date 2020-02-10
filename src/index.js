@@ -346,10 +346,6 @@ export class Pivot extends React.Component {
             <script src="https://cdn.flexmonster.com/lib/jspdf.min.js"></script>
             <script src="https://cdn.flexmonster.com/lib/promise.min.js"></script>
             <script src="https://cdn.flexmonster.com/lib/sha1.min.js"></script>
-            <script src="https://cdn.flexmonster.com/lib/elasticsearch.min.js"></script>
-            <script src="https://cdn.flexmonster.com/lib/file.min.js"></script>
-            <script src="https://cdn.flexmonster.com/lib/jszip.min.js"></script>
-            <script src="https://cdn.flexmonster.com/lib/zlib.min.js"></script>
         </head>
 
         <body style="margin:0; padding:0;">
