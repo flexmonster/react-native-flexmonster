@@ -98,6 +98,9 @@ export class Pivot extends React.Component {
     getSort = (name) => {
         return this.composePromise("getSort", name);
     }
+    getFlatSort = () => {
+        return this.composePromise("getFlatSort");
+    }
     getXMLACatalogs = (url, dataSource) => {
         return this.composePromiseWithCallback("getXMLACatalogs", url, dataSource);
     }
@@ -157,6 +160,9 @@ export class Pivot extends React.Component {
     }
     setSort = (name, sort) => {
         this.runScript(`flexmonster.setSort(${this.stringifyParams([name, sort])})`);
+    }
+    setFlatSort = (sort) => {
+        this.runScript(`flexmonster.setFlatSort(${this.stringifyParams([sort])})`);
     }
     showCharts = (type) => {
         this.runScript(`flexmonster.showCharts(${this.stringifyParams(type)})`);
