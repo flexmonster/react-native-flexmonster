@@ -331,9 +331,6 @@ export class Pivot extends React.Component {
         return strings.join("");
     }
     htmlTemplate = () => {
-        var width = Dimensions.get('window').width;
-        var height = Dimensions.get('window').height;
-
         return (
             `
         <!DOCTYPE html>
@@ -354,7 +351,7 @@ export class Pivot extends React.Component {
             <script src="https://cdn.flexmonster.com/lib/sha1.min.js"></script>
         </head>
 
-        <body style="margin:0; padding:0;">
+        <body style="margin:0; padding:0; display: flex; height: 100vh;">
 
             <div id="pivot-container"></div>
             <script>
@@ -362,8 +359,8 @@ export class Pivot extends React.Component {
                     container: "#pivot-container",
                     componentFolder: "https://cdn.flexmonster.com/",
                     toolbar: true,
-                    height: ${height},
-                    width: ${width},
+                    height: "100%",
+                    width: "100%",
                     licenseKey: '${this.props.licenseKey === undefined ? "" : this.props.licenseKey}',
                     report: JSON.parse('${JSON.stringify(this.props.report)}')
                 });
