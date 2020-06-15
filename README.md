@@ -58,8 +58,8 @@ expo start
 
 Available attributes for `FlexmonsterReactNative.Pivot`:
 
-* `report` – property to set a report. It can be inline [Report Object](https://www.flexmonster.com/api/report-object/) or URL to report JSON.
-* `licenseKey` – the license key.
+* report – property to set a report. It can be inline Report Object or URL to report JSON.
+* licenseKey – the license key.
 
 ## <a name="license"></a>License ##
 
