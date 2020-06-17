@@ -1,1 +1,384 @@
-module.exports=function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}return n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=1)}([function(e,t){e.exports=function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}},function(e,t,n){var r=n(2);Object.defineProperty(t,"__esModule",{value:!0}),t.default=t.Pivot=void 0;var o=r(n(3)),a=r(n(4)),l=r(n(5)),i=r(n(7)),u=r(n(0)),f=r(n(8)),s=r(n(10)),c=r(n(11)),d=r(n(12)),p=n(13),m=n(14),g="d:\\projects\\react-native-flexmonster\\src\\index.js",y=function(e){function t(e){var n;return(0,o.default)(this,t),n=(0,l.default)(this,(0,i.default)(t).call(this,e)),(0,s.default)((0,u.default)(n),"addCalculatedMeasure",(function(e){n.runScript("flexmonster.addCalculatedMeasure("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"addCondition",(function(e){n.runScript("flexmonster.addCondition("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"clear",(function(){n.runScript("flexmonster.clear()")})),(0,s.default)((0,u.default)(n),"clearFilter",(function(e){n.runScript("flexmonster.clearFilter("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"closeFieldsList",(function(){n.runScript("flexmonster.closeFieldsList()")})),(0,s.default)((0,u.default)(n),"collapseAllData",(function(){n.runScript("flexmonster.collapseAllData()")})),(0,s.default)((0,u.default)(n),"collapseData",(function(e){n.runScript("flexmonster.collapseData("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"connectTo",(function(e){n.runScript("flexmonster.connectTo("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"dispose",(function(){n.runScript("flexmonster.dispose()")})),(0,s.default)((0,u.default)(n),"expandAllData",(function(){n.runScript("flexmonster.expandAllData()")})),(0,s.default)((0,u.default)(n),"expandData",(function(e){n.runScript("flexmonster.expandData("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"exportTo",(function(e){return n.composePromiseWithCallback("exportTo",e)})),(0,s.default)((0,u.default)(n),"getAllConditions",(function(){return n.composePromise("getAllConditions")})),(0,s.default)((0,u.default)(n),"getAllHierarchies",(function(){return n.composePromise("getAllHierarchies")})),(0,s.default)((0,u.default)(n),"getAllMeasures",(function(){return n.composePromise("getAllMeasures")})),(0,s.default)((0,u.default)(n),"getCell",(function(e,t){return n.composePromise("getCell",e,t)})),(0,s.default)((0,u.default)(n),"getColumns",(function(){return n.composePromise("getColumns")})),(0,s.default)((0,u.default)(n),"getCondition",(function(e){return n.composePromise("getCondition",e)})),(0,s.default)((0,u.default)(n),"getFilter",(function(e){return n.composePromise("getFilter",e)})),(0,s.default)((0,u.default)(n),"getFormat",(function(e){return n.composePromise("getFormat",e)})),(0,s.default)((0,u.default)(n),"getMeasures",(function(){return n.composePromise("getMeasures")})),(0,s.default)((0,u.default)(n),"getMembers",(function(e){return n.composePromise("getMembers",e)})),(0,s.default)((0,u.default)(n),"getOptions",(function(){return n.composePromise("getOptions")})),(0,s.default)((0,u.default)(n),"getReport",(function(){return n.composePromise("getReport")})),(0,s.default)((0,u.default)(n),"getReportFilters",(function(){return n.composePromise("getReportFilters")})),(0,s.default)((0,u.default)(n),"getRows",(function(){return n.composePromise("getRows")})),(0,s.default)((0,u.default)(n),"getSelectedCell",(function(){return n.composePromise("getSelectedCell")})),(0,s.default)((0,u.default)(n),"getSort",(function(e){return n.composePromise("getSort",e)})),(0,s.default)((0,u.default)(n),"getXMLACatalogs",(function(e,t){return n.composePromiseWithCallback("getXMLACatalogs",e,t)})),(0,s.default)((0,u.default)(n),"getXMLACubes",(function(e,t,r){return n.composePromiseWithCallback("getXMLACubes",e,t,r)})),(0,s.default)((0,u.default)(n),"getXMLADataSources",(function(e){return n.composePromiseWithCallback("getXMLADataSources",e)})),(0,s.default)((0,u.default)(n),"load",(function(e){n.runScript("flexmonster.load("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"openCalculatedValueEditor",(function(){n.runScript("flexmonster.openCalculatedValueEditor()")})),(0,s.default)((0,u.default)(n),"openFieldsList",(function(){n.runScript("flexmonster.openFieldsList()")})),(0,s.default)((0,u.default)(n),"openFilter",(function(e){n.runScript("flexmonster.openFilter("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"refresh",(function(){n.runScript("flexmonster.refresh()")})),(0,s.default)((0,u.default)(n),"removeAllCalculatedMeasures",(function(){n.runScript("flexmonster.removeAllCalculatedMeasures()")})),(0,s.default)((0,u.default)(n),"removeAllConditions",(function(){n.runScript("flexmonster.removeAllConditions()")})),(0,s.default)((0,u.default)(n),"removeCalculatedMeasure",(function(e){n.runScript("flexmonster.removeCalculatedMeasure("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"removeCondition",(function(e){n.runScript("flexmonster.removeCondition("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"removeSelection",(function(){n.runScript("flexmonster.removeSelection()")})),(0,s.default)((0,u.default)(n),"runQuery",(function(e){n.runScript("flexmonster.runQuery("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"save",(function(e){n.runScript("flexmonster.save("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"setFilter",(function(e,t){n.runScript("flexmonster.setFilter("+n.stringifyParams([e,t])+")")})),(0,s.default)((0,u.default)(n),"setFormat",(function(e){n.runScript("flexmonster.setFormat("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"setOptions",(function(e){n.runScript("flexmonster.setOptions("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"setReport",(function(e){n.runScript("flexmonster.setReport("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"setSort",(function(e,t){n.runScript("flexmonster.setSort("+n.stringifyParams([e,t])+")")})),(0,s.default)((0,u.default)(n),"showCharts",(function(e){n.runScript("flexmonster.showCharts("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"showGrid",(function(){n.runScript("flexmonster.showGrid()")})),(0,s.default)((0,u.default)(n),"showGridAndCharts",(function(e,t){n.runScript("flexmonster.showGridAndCharts("+n.stringifyParams([e,t])+")")})),(0,s.default)((0,u.default)(n),"sortValues",(function(e,t,r,o){n.runScript("flexmonster.sortValues("+n.stringifyParams([e,t,r,o])+")")})),(0,s.default)((0,u.default)(n),"updateData",(function(e){n.runScript("flexmonster.updateData("+n.stringifyParams(e)+")")})),(0,s.default)((0,u.default)(n),"onMessage",(function(e){var t=JSON.parse(e.nativeEvent.data);"event"===t.type?n.props[t.name]instanceof Function&&n.props[t.name](t):n._callbacks[t.type]&&n._callbacks[t.type](t.data)})),(0,s.default)((0,u.default)(n),"_callbacks",{}),(0,s.default)((0,u.default)(n),"composePromise",(function(e){for(var t=arguments.length,r=new Array(t>1?t-1:0),o=1;o<t;o++)r[o-1]=arguments[o];return new Promise((function(t){n._callbacks[e]=function(e){return t(e)},n.runScript("\n                    var result = flexmonster."+e+"("+n.stringifyParams(r)+');\n                    var response = {\n                        type: "'+e+'",\n                        data: result\n                    };\n                    window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                ')}))})),(0,s.default)((0,u.default)(n),"composePromiseWithCallback",(function(e){for(var t=arguments.length,r=new Array(t>1?t-1:0),o=1;o<t;o++)r[o-1]=arguments[o];return new Promise((function(t){n._callbacks[e]=function(e){return t(e)},n.runScript("\n                    flexmonster."+e+"(\n                        "+n.stringifyParams(r)+',\n                        (result) => {\n                            var response = {\n                                type: "'+e+'",\n                                data: result\n                            };\n                            window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                        }\n                    )\n                ')}))})),(0,s.default)((0,u.default)(n),"stringifyParams",(function(e){return e instanceof Array?e.map((function(e){return"JSON.parse(`"+JSON.stringify(e)+"`)"})).join(","):"JSON.parse(`"+JSON.stringify(e)+"`)"})),(0,s.default)((0,u.default)(n),"runScript",(function(e){n.webView.injectJavaScript("(function() { "+e+" })();")})),(0,s.default)((0,u.default)(n),"registerEvents",(function(){return["afterchartdraw","aftergriddraw","beforegriddraw","cellclick","chartclick","celldoubleclick","datachanged","dataerror","datafilecancelled","dataloaded","exportcomplete","exportstart","fieldslistclose","fieldslistopen","filterclose","filteropen","loadingdata","loadinglocalization","loadingolapstructure","loadingreportfile","localizationerror","localizationloaded","olapstructureerror","olapstructureloaded","openingreportfile","printcomplete","printstart","querycomplete","queryerror","ready","reportchange","reportcomplete","reportfilecancelled","reportfileerror","runningquery","update"].map((function(e){if(n.props[e])return"\n                    flexmonster.on('"+e+'\', function (eventData) {\n                        var response = {\n                            type: "event",\n                            name: "'+e+'",\n                            data: eventData\n                        };\n                        window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                    });\n                    '})).join("")})),(0,s.default)((0,u.default)(n),"htmlTemplate",(function(){var e=p.Dimensions.get("window").width;return'\n        <!DOCTYPE html>\n        <html>\n\n        <head>\n            <title>Flexmonster Pivot Table & Charts</title>\n            <meta charset="utf-8" />\n            <meta name="viewport" content="width=device-width, initial-scale=1">\n            <link href="https://cdn.flexmonster.com/flexmonster.min.css" rel="stylesheet">\n            <script src="https://cdn.flexmonster.com/toolbar/flexmonster.toolbar.js"><\/script>\n            <script src="https://cdn.flexmonster.com/flexmonster.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/d3.v3.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/canvg.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/html2canvas.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/jspdf.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/promise.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/sha1.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/elasticsearch.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/file.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/jszip.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/zlib.min.js"><\/script>\n        </head>\n\n        <body style="margin:0; padding:0;">\n\n            <div id="pivot-container"></div>\n            <script>\n                new Flexmonster({\n                    container: "#pivot-container",\n                    componentFolder: "https://cdn.flexmonster.com/",\n                    toolbar: true,\n                    height: '+p.Dimensions.get("window").height+",\n                    width: "+e+",\n                    licenseKey: '"+(void 0===n.props.licenseKey?"":n.props.licenseKey)+"',\n                    report: JSON.parse('"+JSON.stringify(n.props.report)+"')\n                });\n                "+n.registerEvents()+"\n            <\/script>\n        </body>\n\n        </html>\n    "})),n}return(0,f.default)(t,e),(0,a.default)(t,[{key:"shouldComponentUpdate",value:function(){return!1}},{key:"componentWillUnmount",value:function(){this.dispose()}},{key:"render",value:function(){var e,t=this;return d.default.createElement(p.View,{style:{flex:1},__source:{fileName:g,lineNumber:179}},d.default.createElement(m.WebView,(e={style:{flex:1,backgroundColor:"transparent"},originWhitelist:["*"],useWebkit:!0,javaScriptEnabled:!0,domStorageEnabled:!0,mixedContentMode:"compatibility",scrollEnabled:!1,automaticallyAdjustContentInsets:!0,allowFileAccess:!0,allowUniversalAccessFromFileURLs:!0,allowFileAccessFromFileURLs:!0},(0,s.default)(e,"mixedContentMode","always"),(0,s.default)(e,"onMessage",this.onMessage),(0,s.default)(e,"source",{html:this.htmlTemplate()}),(0,s.default)(e,"ref",(function(e){t.webView=e})),(0,s.default)(e,"__source",{fileName:g,lineNumber:180}),e)))}}]),t}(d.default.Component);t.Pivot=y,y.propTypes={afterchartdraw:c.default.func,aftergriddraw:c.default.func,beforegriddraw:c.default.func,cellclick:c.default.func,celldoubleclick:c.default.func,chartclick:c.default.func,datachanged:c.default.func,dataerror:c.default.func,datafilecancelled:c.default.func,dataloaded:c.default.func,fieldslistclose:c.default.func,fieldslistopen:c.default.func,filterclose:c.default.func,filteropen:c.default.func,fullscreen:c.default.func,licenseKey:c.default.string,loadingdata:c.default.func,loadinglocalization:c.default.func,loadingolapstructure:c.default.func,loadingreportfile:c.default.func,localizationerror:c.default.func,localizationloaded:c.default.func,olapstructureerror:c.default.func,olapstructureloaded:c.default.func,openingreportfile:c.default.func,querycomplete:c.default.func,queryerror:c.default.func,ready:c.default.func,report:c.default.oneOfType([c.default.string,c.default.object]),reportchange:c.default.func,reportcomplete:c.default.func,reportfilecancelled:c.default.func,reportfileerror:c.default.func,reportfileloaded:c.default.func,runningquery:c.default.func,update:c.default.func};var x=y;t.default=x},function(e,t){e.exports=function(e){return e&&e.__esModule?e:{default:e}}},function(e,t){e.exports=function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}},function(e,t){function n(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}e.exports=function(e,t,r){return t&&n(e.prototype,t),r&&n(e,r),e}},function(e,t,n){var r=n(6),o=n(0);e.exports=function(e,t){return!t||"object"!==r(t)&&"function"!=typeof t?o(e):t}},function(e,t){function n(t){return"function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?e.exports=n=function(e){return typeof e}:e.exports=n=function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},n(t)}e.exports=n},function(e,t){function n(t){return e.exports=n=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)},n(t)}e.exports=n},function(e,t,n){var r=n(9);e.exports=function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&r(e,t)}},function(e,t){function n(t,r){return e.exports=n=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e},n(t,r)}e.exports=n},function(e,t){e.exports=function(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}},function(e,t){e.exports=require("prop-types")},function(e,t){e.exports=require("react")},function(e,t){e.exports=require("react-native")},function(e,t){e.exports=require("react-native-webview")}]);
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.Pivot = void 0;
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactNative = require("react-native");
+
+var _reactNativeWebview = require("react-native-webview");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+class Pivot extends _react.default.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "addCalculatedMeasure", measure => {
+      this.runScript("flexmonster.addCalculatedMeasure(".concat(this.stringifyParams(measure), ")"));
+    });
+
+    _defineProperty(this, "addCondition", condition => {
+      this.runScript("flexmonster.addCondition(".concat(this.stringifyParams(condition), ")"));
+    });
+
+    _defineProperty(this, "clear", () => {
+      this.runScript("flexmonster.clear()");
+    });
+
+    _defineProperty(this, "clearFilter", name => {
+      this.runScript("flexmonster.clearFilter(".concat(this.stringifyParams(name), ")"));
+    });
+
+    _defineProperty(this, "closeFieldsList", () => {
+      this.runScript("flexmonster.closeFieldsList()");
+    });
+
+    _defineProperty(this, "collapseAllData", () => {
+      this.runScript("flexmonster.collapseAllData()");
+    });
+
+    _defineProperty(this, "collapseData", name => {
+      this.runScript("flexmonster.collapseData(".concat(this.stringifyParams(name), ")"));
+    });
+
+    _defineProperty(this, "connectTo", params => {
+      this.runScript("flexmonster.connectTo(".concat(this.stringifyParams(params), ")"));
+    });
+
+    _defineProperty(this, "dispose", () => {
+      this.runScript("flexmonster.dispose()");
+    });
+
+    _defineProperty(this, "expandAllData", () => {
+      this.runScript("flexmonster.expandAllData()");
+    });
+
+    _defineProperty(this, "expandData", name => {
+      this.runScript("flexmonster.expandData(".concat(this.stringifyParams(name), ")"));
+    });
+
+    _defineProperty(this, "exportTo", params => {
+      return this.composePromiseWithCallback("exportTo", params);
+    });
+
+    _defineProperty(this, "getAllConditions", () => {
+      return this.composePromise("getAllConditions");
+    });
+
+    _defineProperty(this, "getAllHierarchies", () => {
+      return this.composePromise("getAllHierarchies");
+    });
+
+    _defineProperty(this, "getAllMeasures", () => {
+      return this.composePromise("getAllMeasures");
+    });
+
+    _defineProperty(this, "getCell", (rowIdx, colIdx) => {
+      return this.composePromise("getCell", rowIdx, colIdx);
+    });
+
+    _defineProperty(this, "getColumns", () => {
+      return this.composePromise("getColumns");
+    });
+
+    _defineProperty(this, "getCondition", name => {
+      return this.composePromise("getCondition", name);
+    });
+
+    _defineProperty(this, "getFilter", name => {
+      return this.composePromise("getFilter", name);
+    });
+
+    _defineProperty(this, "getFormat", name => {
+      return this.composePromise("getFormat", name);
+    });
+
+    _defineProperty(this, "getMeasures", () => {
+      return this.composePromise("getMeasures");
+    });
+
+    _defineProperty(this, "getMembers", name => {
+      return this.composePromise("getMembers", name);
+    });
+
+    _defineProperty(this, "getOptions", () => {
+      return this.composePromise("getOptions");
+    });
+
+    _defineProperty(this, "getReport", () => {
+      return this.composePromise("getReport");
+    });
+
+    _defineProperty(this, "getReportFilters", () => {
+      return this.composePromise("getReportFilters");
+    });
+
+    _defineProperty(this, "getRows", () => {
+      return this.composePromise("getRows");
+    });
+
+    _defineProperty(this, "getSelectedCell", () => {
+      return this.composePromise("getSelectedCell");
+    });
+
+    _defineProperty(this, "getSort", name => {
+      return this.composePromise("getSort", name);
+    });
+
+    _defineProperty(this, "getFlatSort", () => {
+      return this.composePromise("getFlatSort");
+    });
+
+    _defineProperty(this, "getXMLACatalogs", (url, dataSource) => {
+      return this.composePromiseWithCallback("getXMLACatalogs", url, dataSource);
+    });
+
+    _defineProperty(this, "getXMLACubes", (url, dataSource, catalog) => {
+      return this.composePromiseWithCallback("getXMLACubes", url, dataSource, catalog);
+    });
+
+    _defineProperty(this, "getXMLADataSources", url => {
+      return this.composePromiseWithCallback("getXMLADataSources", url);
+    });
+
+    _defineProperty(this, "load", url => {
+      this.runScript("flexmonster.load(".concat(this.stringifyParams(url), ")"));
+    });
+
+    _defineProperty(this, "openCalculatedValueEditor", () => {
+      this.runScript("flexmonster.openCalculatedValueEditor()");
+    });
+
+    _defineProperty(this, "openFieldsList", () => {
+      this.runScript("flexmonster.openFieldsList()");
+    });
+
+    _defineProperty(this, "openFilter", name => {
+      this.runScript("flexmonster.openFilter(".concat(this.stringifyParams(name), ")"));
+    });
+
+    _defineProperty(this, "refresh", () => {
+      this.runScript("flexmonster.refresh()");
+    });
+
+    _defineProperty(this, "removeAllCalculatedMeasures", () => {
+      this.runScript("flexmonster.removeAllCalculatedMeasures()");
+    });
+
+    _defineProperty(this, "removeAllConditions", () => {
+      this.runScript("flexmonster.removeAllConditions()");
+    });
+
+    _defineProperty(this, "removeCalculatedMeasure", name => {
+      this.runScript("flexmonster.removeCalculatedMeasure(".concat(this.stringifyParams(name), ")"));
+    });
+
+    _defineProperty(this, "removeCondition", name => {
+      this.runScript("flexmonster.removeCondition(".concat(this.stringifyParams(name), ")"));
+    });
+
+    _defineProperty(this, "removeSelection", () => {
+      this.runScript("flexmonster.removeSelection()");
+    });
+
+    _defineProperty(this, "runQuery", query => {
+      this.runScript("flexmonster.runQuery(".concat(this.stringifyParams(query), ")"));
+    });
+
+    _defineProperty(this, "save", params => {
+      this.runScript("flexmonster.save(".concat(this.stringifyParams(params), ")"));
+    });
+
+    _defineProperty(this, "setFilter", (name, filter) => {
+      this.runScript("flexmonster.setFilter(".concat(this.stringifyParams([name, filter]), ")"));
+    });
+
+    _defineProperty(this, "setFormat", format => {
+      this.runScript("flexmonster.setFormat(".concat(this.stringifyParams(format), ")"));
+    });
+
+    _defineProperty(this, "setOptions", options => {
+      this.runScript("flexmonster.setOptions(".concat(this.stringifyParams(options), ")"));
+    });
+
+    _defineProperty(this, "setReport", report => {
+      this.runScript("flexmonster.setReport(".concat(this.stringifyParams(report), ")"));
+    });
+
+    _defineProperty(this, "setSort", (name, sort) => {
+      this.runScript("flexmonster.setSort(".concat(this.stringifyParams([name, sort]), ")"));
+    });
+
+    _defineProperty(this, "setFlatSort", sort => {
+      this.runScript("flexmonster.setFlatSort(".concat(this.stringifyParams([sort]), ")"));
+    });
+
+    _defineProperty(this, "showCharts", type => {
+      this.runScript("flexmonster.showCharts(".concat(this.stringifyParams(type), ")"));
+    });
+
+    _defineProperty(this, "showGrid", () => {
+      this.runScript("flexmonster.showGrid()");
+    });
+
+    _defineProperty(this, "showGridAndCharts", (chart, position) => {
+      this.runScript("flexmonster.showGridAndCharts(".concat(this.stringifyParams([chart, position]), ")"));
+    });
+
+    _defineProperty(this, "sortValues", (axisName, type, tuple, measure) => {
+      this.runScript("flexmonster.sortValues(".concat(this.stringifyParams([axisName, type, tuple, measure]), ")"));
+    });
+
+    _defineProperty(this, "updateData", data => {
+      this.runScript("flexmonster.updateData(".concat(this.stringifyParams(data), ")"));
+    });
+
+    _defineProperty(this, "onMessage", event => {
+      var messageData = JSON.parse(event.nativeEvent.data);
+      var messageType = messageData.type;
+
+      if (messageType === "event") {
+        if (this.props[messageData.name] instanceof Function) this.props[messageData.name](messageData);
+      } else {
+        if (this._callbacks[messageData.type]) this._callbacks[messageData.type](messageData.data);
+      }
+    });
+
+    _defineProperty(this, "_callbacks", {});
+
+    _defineProperty(this, "composePromise", (callName, ...params) => {
+      return new Promise(resolve => {
+        this._callbacks[callName] = result => resolve(result);
+
+        this.runScript("\n                    var result = flexmonster.".concat(callName, "(").concat(this.stringifyParams(params), ");\n                    var response = {\n                        type: \"").concat(callName, "\",\n                        data: result\n                    };\n                    window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                "));
+      });
+    });
+
+    _defineProperty(this, "composePromiseWithCallback", (callName, ...params) => {
+      return new Promise(resolve => {
+        this._callbacks[callName] = result => resolve(result);
+
+        this.runScript("\n                    flexmonster.".concat(callName, "(\n                        ").concat(this.stringifyParams(params), ",\n                        (result) => {\n                            var response = {\n                                type: \"").concat(callName, "\",\n                                data: result\n                            };\n                            window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                        }\n                    )\n                "));
+      });
+    });
+
+    _defineProperty(this, "stringifyParams", params => {
+      if (params instanceof Array) {
+        var strings = params.map(p => {
+          return "JSON.parse(`".concat(JSON.stringify(p), "`)");
+        });
+        return strings.join(",");
+      } else {
+        return "JSON.parse(`".concat(JSON.stringify(params), "`)");
+      }
+    });
+
+    _defineProperty(this, "runScript", scriptStr => {
+      this.webView.injectJavaScript("(function() { ".concat(scriptStr, " })();"));
+    });
+
+    _defineProperty(this, "registerEvents", () => {
+      var eventList = ["afterchartdraw", "aftergriddraw", "beforegriddraw", "cellclick", "chartclick", "celldoubleclick", "datachanged", "dataerror", "datafilecancelled", "dataloaded", "drillthroughclose", "drillthroughopen", "exportcomplete", "exportstart", "fieldslistclose", "fieldslistopen", "filterclose", "filteropen", "loadingdata", "loadinglocalization", "loadingolapstructure", "loadingreportfile", "localizationerror", "localizationloaded", "olapstructureerror", "olapstructureloaded", "openingreportfile", "printcomplete", "printstart", "querycomplete", "queryerror", "ready", "reportchange", "reportcomplete", "reportfilecancelled", "reportfileerror", "runningquery", "update"];
+      var strings = eventList.map(eventName => {
+        if (this.props[eventName]) {
+          return "\n                    flexmonster.on('".concat(eventName, "', function (eventData) {\n                        var response = {\n                            type: \"event\",\n                            name: \"").concat(eventName, "\",\n                            data: eventData\n                        };\n                        window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                    });\n                    ");
+        }
+      });
+      return strings.join("");
+    });
+
+    _defineProperty(this, "htmlTemplate", () => {
+      return "\n        <!DOCTYPE html>\n        <html>\n\n        <head>\n            <title>Flexmonster Pivot Table & Charts</title>\n            <meta charset=\"utf-8\" />\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n            <link href=\"https://cdn.flexmonster.com/flexmonster.min.css\" rel=\"stylesheet\">\n            <script src=\"https://cdn.flexmonster.com/toolbar/flexmonster.toolbar.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/flexmonster.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/d3.v3.min.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/canvg.min.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/html2canvas.min.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/jspdf.min.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/promise.min.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/sha1.min.js\"></script>\n        </head>\n\n        <body style=\"margin:0; padding:0; display: flex; height: 100vh;\">\n\n            <div id=\"pivot-container\"></div>\n            <script>\n                new Flexmonster({\n                    container: \"#pivot-container\",\n                    componentFolder: \"https://cdn.flexmonster.com/\",\n                    toolbar: true,\n                    height: \"100%\",\n                    width: \"100%\",\n                    licenseKey: '".concat(this.props.licenseKey === undefined ? "" : this.props.licenseKey, "',\n                    report: JSON.parse('").concat(JSON.stringify(this.props.report), "')\n                });\n                ").concat(this.registerEvents(), "\n            </script>\n        </body>\n\n        </html>\n    ");
+    });
+  }
+
+  shouldComponentUpdate() {
+    return false;
+  }
+
+  componentWillUnmount() {
+    this.dispose();
+  }
+
+  render() {
+    return _react.default.createElement(_reactNative.View, {
+      style: {
+        flex: 1
+      }
+    }, _react.default.createElement(_reactNativeWebview.WebView, {
+      style: {
+        flex: 1,
+        backgroundColor: 'transparent'
+      },
+      originWhitelist: ['*'],
+      useWebkit: true,
+      javaScriptEnabled: true,
+      domStorageEnabled: true,
+      mixedContentMode: "compatibility",
+      scrollEnabled: false,
+      automaticallyAdjustContentInsets: true,
+      allowFileAccess: true,
+      allowUniversalAccessFromFileURLs: true,
+      allowFileAccessFromFileURLs: true,
+      mixedContentMode: "always",
+      onMessage: this.onMessage,
+      source: {
+        html: this.htmlTemplate()
+      },
+      ref: webView => {
+        this.webView = webView;
+      }
+    }));
+  }
+
+}
+
+exports.Pivot = Pivot;
+Pivot.propTypes = {
+  afterchartdraw: _propTypes.default.func,
+  aftergriddraw: _propTypes.default.func,
+  beforegriddraw: _propTypes.default.func,
+  cellclick: _propTypes.default.func,
+  celldoubleclick: _propTypes.default.func,
+  chartclick: _propTypes.default.func,
+  datachanged: _propTypes.default.func,
+  dataerror: _propTypes.default.func,
+  datafilecancelled: _propTypes.default.func,
+  dataloaded: _propTypes.default.func,
+  fieldslistclose: _propTypes.default.func,
+  fieldslistopen: _propTypes.default.func,
+  filterclose: _propTypes.default.func,
+  filteropen: _propTypes.default.func,
+  fullscreen: _propTypes.default.func,
+  licenseKey: _propTypes.default.string,
+  loadingdata: _propTypes.default.func,
+  loadinglocalization: _propTypes.default.func,
+  loadingolapstructure: _propTypes.default.func,
+  loadingreportfile: _propTypes.default.func,
+  localizationerror: _propTypes.default.func,
+  localizationloaded: _propTypes.default.func,
+  olapstructureerror: _propTypes.default.func,
+  olapstructureloaded: _propTypes.default.func,
+  openingreportfile: _propTypes.default.func,
+  querycomplete: _propTypes.default.func,
+  queryerror: _propTypes.default.func,
+  ready: _propTypes.default.func,
+  report: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.object]),
+  reportchange: _propTypes.default.func,
+  reportcomplete: _propTypes.default.func,
+  reportfilecancelled: _propTypes.default.func,
+  reportfileerror: _propTypes.default.func,
+  reportfileloaded: _propTypes.default.func,
+  runningquery: _propTypes.default.func,
+  update: _propTypes.default.func
+};
+var _default = Pivot;
+exports.default = _default;

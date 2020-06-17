@@ -15,6 +15,7 @@
     "react-native-webview": "^8.0.4"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.10.1",
     "@types/flexmonster": "latest",
     "flexmonster": "latest",
     "prop-types": "^15.7.2",
@@ -51,15 +52,15 @@
   },
   "homepage": "https://flexmonster.com/",
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/plugin-transform-arrow-functions": "^7.8.3",
     "@babel/plugin-transform-classes": "^7.8.3",
     "@babel/plugin-transform-modules-commonjs": "^7.8.3",
     "@babel/plugin-transform-react-jsx": "^7.0.0",
-    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
     "babelify": "^10.0.0",
