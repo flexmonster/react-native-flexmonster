@@ -1,6 +1,10 @@
 # React Native module for Flexmonster Pivot Table & Charts 
-[![Flexmonster Pivot Table & Charts](https://s3.amazonaws.com/flexmonster/github/fm-github-cover.png)](https://flexmonster.com)
+[![Flexmonster Pivot Table & Charts](https://www.flexmonster.com/fm_uploads/2020/06/GitHub_fm.png)](https://flexmonster.com)
+Website: www.flexmonster.com
 
+## Flexmonster Pivot Table & Charts
+
+Flexmonster Pivot is a powerful Javascript tool for interactive web reporting. It allows you to visualize and analyze data from JSON, CSV, SQL, NoSQL, Elasticsearch, and OLAP data sources fast and conveniently. Flexmonster is designed to integrate seamlessly with any client-side framework and can be easily embedded into your application.
 
 This repository holds the source code for using [Flexmonster Pivot](https://www.flexmonster.com/) in [React Native](https://facebook.github.io/react-native/) applications. 
 
@@ -11,7 +15,7 @@ This repository holds the source code for using [Flexmonster Pivot](https://www.
 
 ## <a name="getting-started"></a>Getting Started ##
 
-If you don’t have React Native app, you can create it by running in the console:
+If you don’t have React Native app, create it by running the following command in the console:
 
 ```bash
 npm install -g expo-cli
@@ -20,7 +24,7 @@ expo init my-app --template blank
 cd my-app
 npm install
 ```
-You can find more information here: [React Native: Getting Started](https://facebook.github.io/react-native/docs/getting-started)
+Find more information here: [React Native: Getting Started](https://facebook.github.io/react-native/docs/getting-started).
 
 Add Flexmonster React Native module by running in the console:
 
@@ -49,10 +53,11 @@ export default function App() {
 ```
 For better user experience, we recommend setting orientation of the screen to `landscape`.
 
-Now you are ready to run the application.
+Run the application with this command:
 ```bash
 expo start
 ```
+For more details, refer to the [Flexmonster integration with React Native](https://www.flexmonster.com/doc/integration-with-react-native/) tutorial.
 
 ## <a name="usage"></a>Usage ##
 
