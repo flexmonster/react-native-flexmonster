@@ -10,6 +10,7 @@ This repository holds the source code for using [Flexmonster Pivot](https://www.
 
 * [Getting started](#getting-started)
 * [Usage](#usage)
+* [Sample project](#sample-project)
 * [License](#license)
 * [Support & feedback](#support-feedback)
 
@@ -57,14 +58,14 @@ Run the application with this command:
 ```bash
 expo start
 ```
-For more details, refer to the [Flexmonster integration with React Native](https://www.flexmonster.com/doc/integration-with-react-native/) tutorial.
 
 ## <a name="usage"></a>Usage ##
 
-Available attributes for `FlexmonsterReactNative.Pivot`:
+For more details on usage, refer to the [Flexmonster integration with React Native](https://www.flexmonster.com/doc/integration-with-react-native/) tutorial.
 
-* report – property to set a report. It can be inline Report Object or URL to report JSON.
-* licenseKey – the license key.
+## <a name="sample-project"></a>Sample project ##
+
+See our sample [React Native project using the Flexmonster React Native module](https://github.com/flexmonster/pivot-react-native).
 
 ## <a name="license"></a>License ##
 
