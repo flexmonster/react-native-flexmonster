@@ -8,60 +8,14 @@ Flexmonster Pivot is a powerful JavaScript tool for interactive web reporting. I
 
 This repository holds the source code for using [Flexmonster Pivot](https://www.flexmonster.com/) in [React Native](https://facebook.github.io/react-native/) applications. 
 
-* [Getting started](#getting-started)
 * [Usage](#usage)
 * [Sample project](#sample-project)
 * [License](#license)
 * [Support & feedback](#support-feedback)
 
-## <a name="getting-started"></a>Getting Started ##
-
-If you don’t have React Native app, create it by running the following command in the console:
-
-```bash
-npm install -g expo-cli
-
-expo init my-app --template blank
-cd my-app
-npm install
-```
-Find more information here: [React Native: Getting Started](https://facebook.github.io/react-native/docs/getting-started).
-
-Add Flexmonster React Native module by running in the console:
-
-```bash
-npm i react-native-flexmonster --save
-```
-
-Include `FlexmonsterReactNative` into `App.js`:
-
-```bash
-import * as FlexmonsterReactNative from 'react-native-flexmonster';
-```
-
-Insert a pivot table into `App.js`:
-
-```bash
-export default function App() {
-  return (
-    <View style={{ flex: 1 }}>
-        <FlexmonsterReactNative.Pivot
-          report="https://cdn.flexmonster.com/reports/report.json"
-        />
-      </View>
-  );
-}
-```
-For better user experience, we recommend setting orientation of the screen to `landscape`.
-
-Run the application with this command:
-```bash
-expo start
-```
-
 ## <a name="usage"></a>Usage ##
 
-For details on usage, refer to the [Flexmonster integration with React Native](https://www.flexmonster.com/doc/integration-with-react-native/) tutorial.
+For details on the module usage, refer to the [Flexmonster integration with React Native](https://www.flexmonster.com/doc/integration-with-react-native/) tutorial.
 
 ## <a name="sample-project"></a>Sample project ##
 
