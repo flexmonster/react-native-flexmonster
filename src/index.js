@@ -310,6 +310,7 @@ export class Pivot extends React.Component {
             "reportfilecancelled",
             "reportfileerror",
             "runningquery",
+            "unauthorizederror",
             "update"
         ];
         var strings = eventList.map(
@@ -408,6 +409,7 @@ Pivot.propTypes = {
     reportfileerror: PropTypes.func,
     reportfileloaded: PropTypes.func,
     runningquery: PropTypes.func,
+    unauthorizederror: PropTypes.func,
     update: PropTypes.func
 }
 export default Pivot;
