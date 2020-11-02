@@ -113,6 +113,12 @@ export class Pivot extends React.Component {
     load = (url) => {
         this.runScript(`flexmonster.load(${this.stringifyParams(url)})`);
     }
+    on = (eventName, callback) => {
+        this._events[eventName] = callback;
+    }
+    off = (eventName) => {
+        this._events[eventName] = false;
+    }
     openCalculatedValueEditor = () => {
         this.runScript(`flexmonster.openCalculatedValueEditor()`);
     }
@@ -211,12 +217,19 @@ export class Pivot extends React.Component {
         var messageData = JSON.parse(event.nativeEvent.data);
         var messageType = messageData.type;
         if (messageType === "event") {
-            if (this.props[messageData.name] instanceof Function) this.props[messageData.name](messageData);
+            if (this.props[messageData.name] instanceof Function) {
+                if (this._events[messageData.name] !== false) {
+                    this.props[messageData.name](messageData.data);
+                }
+            } else if (this._events[messageData.name] instanceof Function) {
+                this._events[messageData.name](messageData.data);
+            }
         } else {
             if (this._callbacks[messageData.type]) this._callbacks[messageData.type](messageData.data);
         }
     }
 
+    _events = {};
     _callbacks = {};
     composePromise = (callName, ...params) => {
         return new Promise(
@@ -315,8 +328,8 @@ export class Pivot extends React.Component {
         ];
         var strings = eventList.map(
             eventName => {
-                if (this.props[eventName]) {
-                    return `
+                // if (this.props[eventName]) {
+                return `
                     flexmonster.on('${eventName}', function (eventData) {
                         var response = {
                             type: "event",
@@ -326,7 +339,7 @@ export class Pivot extends React.Component {
                         window.ReactNativeWebView.postMessage(JSON.stringify(response));
                     });
                     `
-                }
+                //  }
             }
         );
         return strings.join("");
