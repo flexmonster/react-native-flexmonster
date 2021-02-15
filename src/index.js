@@ -185,6 +185,12 @@ export class Pivot extends React.Component {
     updateData = (data) => {
         this.runScript(`flexmonster.updateData(${this.stringifyParams(data)})`);
     }
+    scrollToRow = (rowIdx) => {
+        this.runScript(`flexmonster.scrollToRow(${this.stringifyParams(rowIdx)})`);
+    }
+    scrollToColumn = (colIdx) => {
+        this.runScript(`flexmonster.scrollToColumn(${this.stringifyParams(colIdx)})`);
+    }
 
     render() {
         return (
