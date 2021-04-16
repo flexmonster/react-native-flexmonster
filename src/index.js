@@ -382,7 +382,8 @@ export class Pivot extends React.Component {
                     height: "100%",
                     width: "100%",
                     licenseKey: '${this.props.licenseKey === undefined ? "" : this.props.licenseKey}',
-                    report: JSON.parse('${JSON.stringify(this.props.report)}')
+                    report: JSON.parse('${JSON.stringify(this.props.report)}'),
+                    accessibility: JSON.parse('${JSON.stringify(this.props.accessibility || {})}')
                 });
                 ${this.registerEvents()}
             </script>
@@ -429,6 +430,7 @@ Pivot.propTypes = {
     reportfileloaded: PropTypes.func,
     runningquery: PropTypes.func,
     unauthorizederror: PropTypes.func,
-    update: PropTypes.func
+    update: PropTypes.func,
+    accessibility: PropTypes.object
 }
 export default Pivot;
