@@ -12,7 +12,7 @@
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-native": "^0.61.5",
-    "react-native-webview": "^8.0.4"
+    "react-native-webview": "^11.0.0"
   },
   "dependencies": {
     "@babel/polyfill": "^7.10.1",
@@ -22,7 +22,7 @@
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-native": "^0.61.5",
-    "react-native-webview": "^8.0.4"
+    "react-native-webview": "^11.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
