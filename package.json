@@ -11,7 +11,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-native": "^0.61.5",
+    "react-native": "^0.69.5",
     "react-native-webview": "^8.0.4"
   },
   "dependencies": {
@@ -21,7 +21,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-native": "^0.61.5",
+    "react-native": "^0.69.5",
     "react-native-webview": "^8.0.4"
   },
   "scripts": {
