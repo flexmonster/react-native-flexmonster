@@ -1,6 +1,6 @@
 {
   "name": "react-native-flexmonster",
-  "version": "2.9.37",
+  "version": "2.9.38",
   "license": "MIT",
   "description": "React Native Module for Flexmonster Pivot Table & Charts",
   "main": "./build/index.js",
