@@ -200,7 +200,6 @@ export class Pivot extends React.Component {
                     useWebkit
                     javaScriptEnabled
                     domStorageEnabled
-                    mixedContentMode="compatibility"
                     scrollEnabled={false}
                     automaticallyAdjustContentInsets
                     allowFileAccess={true}
