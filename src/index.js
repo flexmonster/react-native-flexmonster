@@ -41,8 +41,8 @@ export class Pivot extends React.Component {
     dispose = () => {
         this.runScript(`flexmonster.dispose()`);
     }
-    expandAllData = () => {
-        this.runScript(`flexmonster.expandAllData()`);
+    expandAllData = (withAllChildren, type) => {
+        this.runScript(`flexmonster.expandAllData(${this.stringifyParams([withAllChildren, type])})`);
     }
     expandData = (name) => {
         this.runScript(`flexmonster.expandData(${this.stringifyParams(name)})`);
