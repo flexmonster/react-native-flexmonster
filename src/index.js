@@ -1,12 +1,10 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { View, Dimensions } from 'react-native';
+import { View } from 'react-native';
 import { WebView } from 'react-native-webview';
 
 export class Pivot extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+    
     shouldComponentUpdate() {
         return false;
     }
@@ -432,4 +430,3 @@ Pivot.propTypes = {
     update: PropTypes.func,
     accessibility: PropTypes.object
 }
-export default Pivot;
