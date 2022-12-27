@@ -1,1 +1,365 @@
-module.exports=function(e){var t={};function r(n){if(t[n])return t[n].exports;var o=t[n]={i:n,l:!1,exports:{}};return e[n].call(o.exports,o,o.exports,r),o.l=!0,o.exports}return r.m=e,r.c=t,r.d=function(e,t,n){r.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},r.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)r.d(n,o,function(t){return e[t]}.bind(null,o));return n},r.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},r.p="",r(r.s=1)}([function(e,t){e.exports=function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e},e.exports.default=e.exports,e.exports.__esModule=!0},function(e,t,r){var n=r(2);Object.defineProperty(t,"__esModule",{value:!0}),t.default=t.Pivot=void 0;var o=n(r(3)),l=n(r(4)),a=n(r(0)),u=n(r(5)),i=n(r(7)),s=n(r(9)),f=n(r(10)),c=n(r(11)),d=n(r(12)),p=r(13),m=r(14),x="C:\\Git\\PIVOT\\projects\\Packages\\npm\\react-native-flexmonster\\src\\index.js";function g(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}();return function(){var r,n=(0,s.default)(e);if(t){var o=(0,s.default)(this).constructor;r=Reflect.construct(n,arguments,o)}else r=n.apply(this,arguments);return(0,i.default)(this,r)}}var y=function(e){(0,u.default)(r,e);var t=g(r);function r(e){var n;return(0,o.default)(this,r),n=t.call(this,e),(0,f.default)((0,a.default)(n),"addCalculatedMeasure",(function(e){n.runScript("flexmonster.addCalculatedMeasure("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"addCondition",(function(e){n.runScript("flexmonster.addCondition("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"clear",(function(){n.runScript("flexmonster.clear()")})),(0,f.default)((0,a.default)(n),"clearFilter",(function(e){n.runScript("flexmonster.clearFilter("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"closeFieldsList",(function(){n.runScript("flexmonster.closeFieldsList()")})),(0,f.default)((0,a.default)(n),"collapseAllData",(function(){n.runScript("flexmonster.collapseAllData()")})),(0,f.default)((0,a.default)(n),"collapseData",(function(e){n.runScript("flexmonster.collapseData("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"connectTo",(function(e){n.runScript("flexmonster.connectTo("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"dispose",(function(){n.runScript("flexmonster.dispose()")})),(0,f.default)((0,a.default)(n),"expandAllData",(function(e,t){n.runScript("flexmonster.expandAllData("+n.stringifyParams([e,t])+")")})),(0,f.default)((0,a.default)(n),"expandData",(function(e){n.runScript("flexmonster.expandData("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"exportTo",(function(e){return n.composePromiseWithCallback("exportTo",e)})),(0,f.default)((0,a.default)(n),"getAllConditions",(function(){return n.composePromise("getAllConditions")})),(0,f.default)((0,a.default)(n),"getAllHierarchies",(function(){return n.composePromise("getAllHierarchies")})),(0,f.default)((0,a.default)(n),"getAllMeasures",(function(){return n.composePromise("getAllMeasures")})),(0,f.default)((0,a.default)(n),"getCell",(function(e,t){return n.composePromise("getCell",e,t)})),(0,f.default)((0,a.default)(n),"getColumns",(function(){return n.composePromise("getColumns")})),(0,f.default)((0,a.default)(n),"getCondition",(function(e){return n.composePromise("getCondition",e)})),(0,f.default)((0,a.default)(n),"getFilter",(function(e){return n.composePromise("getFilter",e)})),(0,f.default)((0,a.default)(n),"getFormat",(function(e){return n.composePromise("getFormat",e)})),(0,f.default)((0,a.default)(n),"getMeasures",(function(){return n.composePromise("getMeasures")})),(0,f.default)((0,a.default)(n),"getMembers",(function(e){return n.composePromise("getMembers",e)})),(0,f.default)((0,a.default)(n),"getOptions",(function(){return n.composePromise("getOptions")})),(0,f.default)((0,a.default)(n),"getReport",(function(){return n.composePromise("getReport")})),(0,f.default)((0,a.default)(n),"getReportFilters",(function(){return n.composePromise("getReportFilters")})),(0,f.default)((0,a.default)(n),"getRows",(function(){return n.composePromise("getRows")})),(0,f.default)((0,a.default)(n),"getSelectedCell",(function(){return n.composePromise("getSelectedCell")})),(0,f.default)((0,a.default)(n),"getSort",(function(e){return n.composePromise("getSort",e)})),(0,f.default)((0,a.default)(n),"getFlatSort",(function(){return n.composePromise("getFlatSort")})),(0,f.default)((0,a.default)(n),"getXMLACatalogs",(function(e,t){return n.composePromiseWithCallback("getXMLACatalogs",e,t)})),(0,f.default)((0,a.default)(n),"getXMLACubes",(function(e,t,r){return n.composePromiseWithCallback("getXMLACubes",e,t,r)})),(0,f.default)((0,a.default)(n),"getXMLADataSources",(function(e){return n.composePromiseWithCallback("getXMLADataSources",e)})),(0,f.default)((0,a.default)(n),"load",(function(e){n.runScript("flexmonster.load("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"on",(function(e,t){n._events[e]=t})),(0,f.default)((0,a.default)(n),"off",(function(e){n._events[e]=!1})),(0,f.default)((0,a.default)(n),"openCalculatedValueEditor",(function(){n.runScript("flexmonster.openCalculatedValueEditor()")})),(0,f.default)((0,a.default)(n),"openFieldsList",(function(){n.runScript("flexmonster.openFieldsList()")})),(0,f.default)((0,a.default)(n),"openFilter",(function(e){n.runScript("flexmonster.openFilter("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"refresh",(function(){n.runScript("flexmonster.refresh()")})),(0,f.default)((0,a.default)(n),"removeAllCalculatedMeasures",(function(){n.runScript("flexmonster.removeAllCalculatedMeasures()")})),(0,f.default)((0,a.default)(n),"removeAllConditions",(function(){n.runScript("flexmonster.removeAllConditions()")})),(0,f.default)((0,a.default)(n),"removeCalculatedMeasure",(function(e){n.runScript("flexmonster.removeCalculatedMeasure("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"removeCondition",(function(e){n.runScript("flexmonster.removeCondition("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"removeSelection",(function(){n.runScript("flexmonster.removeSelection()")})),(0,f.default)((0,a.default)(n),"runQuery",(function(e){n.runScript("flexmonster.runQuery("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"save",(function(e){n.runScript("flexmonster.save("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"setFilter",(function(e,t){n.runScript("flexmonster.setFilter("+n.stringifyParams([e,t])+")")})),(0,f.default)((0,a.default)(n),"setFormat",(function(e){n.runScript("flexmonster.setFormat("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"setOptions",(function(e){n.runScript("flexmonster.setOptions("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"setReport",(function(e){n.runScript("flexmonster.setReport("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"setSort",(function(e,t){n.runScript("flexmonster.setSort("+n.stringifyParams([e,t])+")")})),(0,f.default)((0,a.default)(n),"setFlatSort",(function(e){n.runScript("flexmonster.setFlatSort("+n.stringifyParams([e])+")")})),(0,f.default)((0,a.default)(n),"showCharts",(function(e){n.runScript("flexmonster.showCharts("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"showGrid",(function(){n.runScript("flexmonster.showGrid()")})),(0,f.default)((0,a.default)(n),"showGridAndCharts",(function(e,t){n.runScript("flexmonster.showGridAndCharts("+n.stringifyParams([e,t])+")")})),(0,f.default)((0,a.default)(n),"sortValues",(function(e,t,r,o){n.runScript("flexmonster.sortValues("+n.stringifyParams([e,t,r,o])+")")})),(0,f.default)((0,a.default)(n),"updateData",(function(e){n.runScript("flexmonster.updateData("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"scrollToRow",(function(e){n.runScript("flexmonster.scrollToRow("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"scrollToColumn",(function(e){n.runScript("flexmonster.scrollToColumn("+n.stringifyParams(e)+")")})),(0,f.default)((0,a.default)(n),"onMessage",(function(e){var t=JSON.parse(e.nativeEvent.data);"event"===t.type?n.props[t.name]instanceof Function?!1!==n._events[t.name]&&n.props[t.name](t.data):n._events[t.name]instanceof Function&&n._events[t.name](t.data):n._callbacks[t.type]&&n._callbacks[t.type](t.data)})),(0,f.default)((0,a.default)(n),"_events",{}),(0,f.default)((0,a.default)(n),"_callbacks",{}),(0,f.default)((0,a.default)(n),"composePromise",(function(e){for(var t=arguments.length,r=new Array(t>1?t-1:0),o=1;o<t;o++)r[o-1]=arguments[o];return new Promise((function(t){n._callbacks[e]=function(e){return t(e)},n.runScript("\n                    var result = flexmonster."+e+"("+n.stringifyParams(r)+');\n                    var response = {\n                        type: "'+e+'",\n                        data: result\n                    };\n                    window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                ')}))})),(0,f.default)((0,a.default)(n),"composePromiseWithCallback",(function(e){for(var t=arguments.length,r=new Array(t>1?t-1:0),o=1;o<t;o++)r[o-1]=arguments[o];return new Promise((function(t){n._callbacks[e]=function(e){return t(e)},n.runScript("\n                    flexmonster."+e+"(\n                        "+n.stringifyParams(r)+',\n                        (result) => {\n                            var response = {\n                                type: "'+e+'",\n                                data: result\n                            };\n                            window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                        }\n                    )\n                ')}))})),(0,f.default)((0,a.default)(n),"stringifyParams",(function(e){return e instanceof Array?e.map((function(e){return"JSON.parse(`"+JSON.stringify(e)+"`)"})).join(","):"JSON.parse(`"+JSON.stringify(e)+"`)"})),(0,f.default)((0,a.default)(n),"runScript",(function(e){n.webView.injectJavaScript("(function() { "+e+" })();")})),(0,f.default)((0,a.default)(n),"registerEvents",(function(){return["afterchartdraw","aftergriddraw","beforegriddraw","cellclick","chartclick","celldoubleclick","datachanged","dataerror","datafilecancelled","dataloaded","drillthroughclose","drillthroughopen","exportcomplete","exportstart","fieldslistclose","fieldslistopen","filterclose","filteropen","loadingdata","loadinglocalization","loadingolapstructure","loadingreportfile","localizationerror","localizationloaded","olapstructureerror","olapstructureloaded","openingreportfile","printcomplete","printstart","querycomplete","queryerror","ready","reportchange","reportcomplete","reportfilecancelled","reportfileerror","runningquery","unauthorizederror","update"].map((function(e){return"\n                    flexmonster.on('"+e+'\', function (eventData) {\n                        var response = {\n                            type: "event",\n                            name: "'+e+'",\n                            data: eventData\n                        };\n                        window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                    });\n                    '})).join("")})),(0,f.default)((0,a.default)(n),"htmlTemplate",(function(){return'\n        <!DOCTYPE html>\n        <html>\n\n        <head>\n            <title>Flexmonster Pivot Table & Charts</title>\n            <meta charset="utf-8" />\n            <meta name="viewport" content="width=device-width, initial-scale=1">\n            <link href="https://cdn.flexmonster.com/flexmonster.min.css" rel="stylesheet">\n            <script src="https://cdn.flexmonster.com/toolbar/flexmonster.toolbar.js"><\/script>\n            <script src="https://cdn.flexmonster.com/flexmonster.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/d3.v3.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/canvg.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/html2canvas.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/jspdf.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/promise.min.js"><\/script>\n            <script src="https://cdn.flexmonster.com/lib/sha1.min.js"><\/script>\n        </head>\n\n        <body style="margin:0; padding:0; display: flex; height: 100vh;">\n\n            <div id="pivot-container"></div>\n            <script>\n                new Flexmonster({\n                    container: "#pivot-container",\n                    componentFolder: "https://cdn.flexmonster.com/",\n                    toolbar: true,\n                    height: "100%",\n                    width: "100%",\n                    licenseKey: \''+(void 0===n.props.licenseKey?"":n.props.licenseKey)+"',\n                    report: JSON.parse('"+JSON.stringify(n.props.report)+"'),\n                    accessibility: JSON.parse('"+JSON.stringify(n.props.accessibility||{})+"')\n                });\n                "+n.registerEvents()+"\n            <\/script>\n        </body>\n\n        </html>\n    "})),n}return(0,l.default)(r,[{key:"shouldComponentUpdate",value:function(){return!1}},{key:"componentWillUnmount",value:function(){this.dispose()}},{key:"render",value:function(){var e=this;return d.default.createElement(p.View,{style:{flex:1},__source:{fileName:x,lineNumber:197,columnNumber:13}},d.default.createElement(m.WebView,{style:{flex:1,backgroundColor:"transparent"},originWhitelist:["*"],useWebkit:!0,javaScriptEnabled:!0,domStorageEnabled:!0,scrollEnabled:!1,automaticallyAdjustContentInsets:!0,allowFileAccess:!0,allowUniversalAccessFromFileURLs:!0,allowFileAccessFromFileURLs:!0,mixedContentMode:"always",onMessage:this.onMessage,source:{html:this.htmlTemplate()},ref:function(t){e.webView=t},__source:{fileName:x,lineNumber:198,columnNumber:17}}))}}]),r}(d.default.Component);t.Pivot=y,y.propTypes={afterchartdraw:c.default.func,aftergriddraw:c.default.func,beforegriddraw:c.default.func,cellclick:c.default.func,celldoubleclick:c.default.func,chartclick:c.default.func,datachanged:c.default.func,dataerror:c.default.func,datafilecancelled:c.default.func,dataloaded:c.default.func,fieldslistclose:c.default.func,fieldslistopen:c.default.func,filterclose:c.default.func,filteropen:c.default.func,fullscreen:c.default.func,licenseKey:c.default.string,loadingdata:c.default.func,loadinglocalization:c.default.func,loadingolapstructure:c.default.func,loadingreportfile:c.default.func,localizationerror:c.default.func,localizationloaded:c.default.func,olapstructureerror:c.default.func,olapstructureloaded:c.default.func,openingreportfile:c.default.func,querycomplete:c.default.func,queryerror:c.default.func,ready:c.default.func,report:c.default.oneOfType([c.default.string,c.default.object]),reportchange:c.default.func,reportcomplete:c.default.func,reportfilecancelled:c.default.func,reportfileerror:c.default.func,reportfileloaded:c.default.func,runningquery:c.default.func,unauthorizederror:c.default.func,update:c.default.func,accessibility:c.default.object};var b=y;t.default=b},function(e,t){e.exports=function(e){return e&&e.__esModule?e:{default:e}},e.exports.default=e.exports,e.exports.__esModule=!0},function(e,t){e.exports=function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")},e.exports.default=e.exports,e.exports.__esModule=!0},function(e,t){function r(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}e.exports=function(e,t,n){return t&&r(e.prototype,t),n&&r(e,n),e},e.exports.default=e.exports,e.exports.__esModule=!0},function(e,t,r){var n=r(6);e.exports=function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&n(e,t)},e.exports.default=e.exports,e.exports.__esModule=!0},function(e,t){function r(t,n){return e.exports=r=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e},e.exports.default=e.exports,e.exports.__esModule=!0,r(t,n)}e.exports=r,e.exports.default=e.exports,e.exports.__esModule=!0},function(e,t,r){var n=r(8).default,o=r(0);e.exports=function(e,t){return!t||"object"!==n(t)&&"function"!=typeof t?o(e):t},e.exports.default=e.exports,e.exports.__esModule=!0},function(e,t){function r(t){return"function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?(e.exports=r=function(e){return typeof e},e.exports.default=e.exports,e.exports.__esModule=!0):(e.exports=r=function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e.exports.default=e.exports,e.exports.__esModule=!0),r(t)}e.exports=r,e.exports.default=e.exports,e.exports.__esModule=!0},function(e,t){function r(t){return e.exports=r=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)},e.exports.default=e.exports,e.exports.__esModule=!0,r(t)}e.exports=r,e.exports.default=e.exports,e.exports.__esModule=!0},function(e,t){e.exports=function(e,t,r){return t in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r,e},e.exports.default=e.exports,e.exports.__esModule=!0},function(e,t){e.exports=require("prop-types")},function(e,t){e.exports=require("react")},function(e,t){e.exports=require("react-native")},function(e,t){e.exports=require("react-native-webview")}]);
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Pivot = void 0;
+var _propTypes = _interopRequireDefault(require("prop-types"));
+var _react = _interopRequireDefault(require("react"));
+var _reactNative = require("react-native");
+var _reactNativeWebview = require("react-native-webview");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+var Pivot = /*#__PURE__*/function (_React$Component) {
+  _inherits(Pivot, _React$Component);
+  var _super = _createSuper(Pivot);
+  function Pivot() {
+    var _this;
+    _classCallCheck(this, Pivot);
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+    _this = _super.call.apply(_super, [this].concat(args));
+    _defineProperty(_assertThisInitialized(_this), "addCalculatedMeasure", function (measure) {
+      _this.runScript("flexmonster.addCalculatedMeasure(".concat(_this.stringifyParams(measure), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "addCondition", function (condition) {
+      _this.runScript("flexmonster.addCondition(".concat(_this.stringifyParams(condition), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "clear", function () {
+      _this.runScript("flexmonster.clear()");
+    });
+    _defineProperty(_assertThisInitialized(_this), "clearFilter", function (name) {
+      _this.runScript("flexmonster.clearFilter(".concat(_this.stringifyParams(name), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "closeFieldsList", function () {
+      _this.runScript("flexmonster.closeFieldsList()");
+    });
+    _defineProperty(_assertThisInitialized(_this), "collapseAllData", function () {
+      _this.runScript("flexmonster.collapseAllData()");
+    });
+    _defineProperty(_assertThisInitialized(_this), "collapseData", function (name) {
+      _this.runScript("flexmonster.collapseData(".concat(_this.stringifyParams(name), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "connectTo", function (params) {
+      _this.runScript("flexmonster.connectTo(".concat(_this.stringifyParams(params), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "dispose", function () {
+      _this.runScript("flexmonster.dispose()");
+    });
+    _defineProperty(_assertThisInitialized(_this), "expandAllData", function (withAllChildren, type) {
+      _this.runScript("flexmonster.expandAllData(".concat(_this.stringifyParams([withAllChildren, type]), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "expandData", function (name) {
+      _this.runScript("flexmonster.expandData(".concat(_this.stringifyParams(name), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "exportTo", function (params) {
+      return _this.composePromiseWithCallback("exportTo", params);
+    });
+    _defineProperty(_assertThisInitialized(_this), "getAllConditions", function () {
+      return _this.composePromise("getAllConditions");
+    });
+    _defineProperty(_assertThisInitialized(_this), "getAllHierarchies", function () {
+      return _this.composePromise("getAllHierarchies");
+    });
+    _defineProperty(_assertThisInitialized(_this), "getAllMeasures", function () {
+      return _this.composePromise("getAllMeasures");
+    });
+    _defineProperty(_assertThisInitialized(_this), "getCell", function (rowIdx, colIdx) {
+      return _this.composePromise("getCell", rowIdx, colIdx);
+    });
+    _defineProperty(_assertThisInitialized(_this), "getColumns", function () {
+      return _this.composePromise("getColumns");
+    });
+    _defineProperty(_assertThisInitialized(_this), "getCondition", function (name) {
+      return _this.composePromise("getCondition", name);
+    });
+    _defineProperty(_assertThisInitialized(_this), "getFilter", function (name) {
+      return _this.composePromise("getFilter", name);
+    });
+    _defineProperty(_assertThisInitialized(_this), "getFormat", function (name) {
+      return _this.composePromise("getFormat", name);
+    });
+    _defineProperty(_assertThisInitialized(_this), "getMeasures", function () {
+      return _this.composePromise("getMeasures");
+    });
+    _defineProperty(_assertThisInitialized(_this), "getMembers", function (name) {
+      return _this.composePromise("getMembers", name);
+    });
+    _defineProperty(_assertThisInitialized(_this), "getOptions", function () {
+      return _this.composePromise("getOptions");
+    });
+    _defineProperty(_assertThisInitialized(_this), "getReport", function () {
+      return _this.composePromise("getReport");
+    });
+    _defineProperty(_assertThisInitialized(_this), "getReportFilters", function () {
+      return _this.composePromise("getReportFilters");
+    });
+    _defineProperty(_assertThisInitialized(_this), "getRows", function () {
+      return _this.composePromise("getRows");
+    });
+    _defineProperty(_assertThisInitialized(_this), "getSelectedCell", function () {
+      return _this.composePromise("getSelectedCell");
+    });
+    _defineProperty(_assertThisInitialized(_this), "getSort", function (name) {
+      return _this.composePromise("getSort", name);
+    });
+    _defineProperty(_assertThisInitialized(_this), "getFlatSort", function () {
+      return _this.composePromise("getFlatSort");
+    });
+    _defineProperty(_assertThisInitialized(_this), "getXMLACatalogs", function (url, dataSource) {
+      return _this.composePromiseWithCallback("getXMLACatalogs", url, dataSource);
+    });
+    _defineProperty(_assertThisInitialized(_this), "getXMLACubes", function (url, dataSource, catalog) {
+      return _this.composePromiseWithCallback("getXMLACubes", url, dataSource, catalog);
+    });
+    _defineProperty(_assertThisInitialized(_this), "getXMLADataSources", function (url) {
+      return _this.composePromiseWithCallback("getXMLADataSources", url);
+    });
+    _defineProperty(_assertThisInitialized(_this), "load", function (url) {
+      _this.runScript("flexmonster.load(".concat(_this.stringifyParams(url), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "on", function (eventName, callback) {
+      _this._events[eventName] = callback;
+    });
+    _defineProperty(_assertThisInitialized(_this), "off", function (eventName) {
+      _this._events[eventName] = false;
+    });
+    _defineProperty(_assertThisInitialized(_this), "openCalculatedValueEditor", function () {
+      _this.runScript("flexmonster.openCalculatedValueEditor()");
+    });
+    _defineProperty(_assertThisInitialized(_this), "openFieldsList", function () {
+      _this.runScript("flexmonster.openFieldsList()");
+    });
+    _defineProperty(_assertThisInitialized(_this), "openFilter", function (name) {
+      _this.runScript("flexmonster.openFilter(".concat(_this.stringifyParams(name), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "refresh", function () {
+      _this.runScript("flexmonster.refresh()");
+    });
+    _defineProperty(_assertThisInitialized(_this), "removeAllCalculatedMeasures", function () {
+      _this.runScript("flexmonster.removeAllCalculatedMeasures()");
+    });
+    _defineProperty(_assertThisInitialized(_this), "removeAllConditions", function () {
+      _this.runScript("flexmonster.removeAllConditions()");
+    });
+    _defineProperty(_assertThisInitialized(_this), "removeCalculatedMeasure", function (name) {
+      _this.runScript("flexmonster.removeCalculatedMeasure(".concat(_this.stringifyParams(name), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "removeCondition", function (name) {
+      _this.runScript("flexmonster.removeCondition(".concat(_this.stringifyParams(name), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "removeSelection", function () {
+      _this.runScript("flexmonster.removeSelection()");
+    });
+    _defineProperty(_assertThisInitialized(_this), "runQuery", function (query) {
+      _this.runScript("flexmonster.runQuery(".concat(_this.stringifyParams(query), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "save", function (params) {
+      _this.runScript("flexmonster.save(".concat(_this.stringifyParams(params), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "setFilter", function (name, filter) {
+      _this.runScript("flexmonster.setFilter(".concat(_this.stringifyParams([name, filter]), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "setFormat", function (format) {
+      _this.runScript("flexmonster.setFormat(".concat(_this.stringifyParams(format), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "setOptions", function (options) {
+      _this.runScript("flexmonster.setOptions(".concat(_this.stringifyParams(options), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "setReport", function (report) {
+      _this.runScript("flexmonster.setReport(".concat(_this.stringifyParams(report), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "setSort", function (name, sort) {
+      _this.runScript("flexmonster.setSort(".concat(_this.stringifyParams([name, sort]), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "setFlatSort", function (sort) {
+      _this.runScript("flexmonster.setFlatSort(".concat(_this.stringifyParams([sort]), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "showCharts", function (type) {
+      _this.runScript("flexmonster.showCharts(".concat(_this.stringifyParams(type), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "showGrid", function () {
+      _this.runScript("flexmonster.showGrid()");
+    });
+    _defineProperty(_assertThisInitialized(_this), "showGridAndCharts", function (chart, position) {
+      _this.runScript("flexmonster.showGridAndCharts(".concat(_this.stringifyParams([chart, position]), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "sortValues", function (axisName, type, tuple, measure) {
+      _this.runScript("flexmonster.sortValues(".concat(_this.stringifyParams([axisName, type, tuple, measure]), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "updateData", function (data) {
+      _this.runScript("flexmonster.updateData(".concat(_this.stringifyParams(data), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "scrollToRow", function (rowIdx) {
+      _this.runScript("flexmonster.scrollToRow(".concat(_this.stringifyParams(rowIdx), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "scrollToColumn", function (colIdx) {
+      _this.runScript("flexmonster.scrollToColumn(".concat(_this.stringifyParams(colIdx), ")"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "onMessage", function (event) {
+      var messageData = JSON.parse(event.nativeEvent.data);
+      var messageType = messageData.type;
+      if (messageType === "event") {
+        if (_this.props[messageData.name] instanceof Function) {
+          if (_this._events[messageData.name] !== false) {
+            _this.props[messageData.name](messageData.data);
+          }
+        } else if (_this._events[messageData.name] instanceof Function) {
+          _this._events[messageData.name](messageData.data);
+        }
+      } else {
+        if (_this._callbacks[messageData.type]) _this._callbacks[messageData.type](messageData.data);
+      }
+    });
+    _defineProperty(_assertThisInitialized(_this), "_events", {});
+    _defineProperty(_assertThisInitialized(_this), "_callbacks", {});
+    _defineProperty(_assertThisInitialized(_this), "composePromise", function (callName) {
+      for (var _len2 = arguments.length, params = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+        params[_key2 - 1] = arguments[_key2];
+      }
+      return new Promise(function (resolve) {
+        _this._callbacks[callName] = function (result) {
+          return resolve(result);
+        };
+        _this.runScript("\n                    var result = flexmonster.".concat(callName, "(").concat(_this.stringifyParams(params), ");\n                    var response = {\n                        type: \"").concat(callName, "\",\n                        data: result\n                    };\n                    window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                "));
+      });
+    });
+    _defineProperty(_assertThisInitialized(_this), "composePromiseWithCallback", function (callName) {
+      for (var _len3 = arguments.length, params = new Array(_len3 > 1 ? _len3 - 1 : 0), _key3 = 1; _key3 < _len3; _key3++) {
+        params[_key3 - 1] = arguments[_key3];
+      }
+      return new Promise(function (resolve) {
+        _this._callbacks[callName] = function (result) {
+          return resolve(result);
+        };
+        _this.runScript("\n                    flexmonster.".concat(callName, "(\n                        ").concat(_this.stringifyParams(params), ",\n                        (result) => {\n                            var response = {\n                                type: \"").concat(callName, "\",\n                                data: result\n                            };\n                            window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                        }\n                    )\n                "));
+      });
+    });
+    _defineProperty(_assertThisInitialized(_this), "stringifyParams", function (params) {
+      if (params instanceof Array) {
+        var strings = params.map(function (p) {
+          return "JSON.parse(`".concat(JSON.stringify(p), "`)");
+        });
+        return strings.join(",");
+      } else {
+        return "JSON.parse(`".concat(JSON.stringify(params), "`)");
+      }
+    });
+    _defineProperty(_assertThisInitialized(_this), "runScript", function (scriptStr) {
+      _this.webView.injectJavaScript("(function() { ".concat(scriptStr, " })();"));
+    });
+    _defineProperty(_assertThisInitialized(_this), "registerEvents", function () {
+      var eventList = ["afterchartdraw", "aftergriddraw", "beforegriddraw", "cellclick", "chartclick", "celldoubleclick", "datachanged", "dataerror", "datafilecancelled", "dataloaded", "drillthroughclose", "drillthroughopen", "exportcomplete", "exportstart", "fieldslistclose", "fieldslistopen", "filterclose", "filteropen", "loadingdata", "loadinglocalization", "loadingolapstructure", "loadingreportfile", "localizationerror", "localizationloaded", "olapstructureerror", "olapstructureloaded", "openingreportfile", "printcomplete", "printstart", "querycomplete", "queryerror", "ready", "reportchange", "reportcomplete", "reportfilecancelled", "reportfileerror", "runningquery", "unauthorizederror", "update"];
+      var strings = eventList.map(function (eventName) {
+        // if (this.props[eventName]) {
+        return "\n                    flexmonster.on('".concat(eventName, "', function (eventData) {\n                        var response = {\n                            type: \"event\",\n                            name: \"").concat(eventName, "\",\n                            data: eventData\n                        };\n                        window.ReactNativeWebView.postMessage(JSON.stringify(response));\n                    });\n                    ");
+        //  }
+      });
+
+      return strings.join("");
+    });
+    _defineProperty(_assertThisInitialized(_this), "htmlTemplate", function () {
+      return "\n        <!DOCTYPE html>\n        <html>\n\n        <head>\n            <title>Flexmonster Pivot Table & Charts</title>\n            <meta charset=\"utf-8\" />\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n            <link href=\"https://cdn.flexmonster.com/flexmonster.min.css\" rel=\"stylesheet\">\n            <script src=\"https://cdn.flexmonster.com/toolbar/flexmonster.toolbar.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/flexmonster.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/d3.v3.min.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/canvg.min.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/html2canvas.min.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/jspdf.min.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/promise.min.js\"></script>\n            <script src=\"https://cdn.flexmonster.com/lib/sha1.min.js\"></script>\n        </head>\n\n        <body style=\"margin:0; padding:0; display: flex; height: 100vh;\">\n\n            <div id=\"pivot-container\"></div>\n            <script>\n                new Flexmonster({\n                    container: \"#pivot-container\",\n                    componentFolder: \"https://cdn.flexmonster.com/\",\n                    toolbar: true,\n                    height: \"100%\",\n                    width: \"100%\",\n                    licenseKey: '".concat(_this.props.licenseKey === undefined ? "" : _this.props.licenseKey, "',\n                    report: JSON.parse('").concat(JSON.stringify(_this.props.report), "'),\n                    accessibility: JSON.parse('").concat(JSON.stringify(_this.props.accessibility || {}), "')\n                });\n                ").concat(_this.registerEvents(), "\n            </script>\n        </body>\n\n        </html>\n    ");
+    });
+    return _this;
+  }
+  _createClass(Pivot, [{
+    key: "shouldComponentUpdate",
+    value: function shouldComponentUpdate() {
+      return false;
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.dispose();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+      return /*#__PURE__*/_react.default.createElement(_reactNative.View, {
+        style: {
+          flex: 1
+        }
+      }, /*#__PURE__*/_react.default.createElement(_reactNativeWebview.WebView, {
+        style: {
+          flex: 1,
+          backgroundColor: 'transparent'
+        },
+        originWhitelist: ['*'],
+        useWebkit: true,
+        javaScriptEnabled: true,
+        domStorageEnabled: true,
+        scrollEnabled: false,
+        automaticallyAdjustContentInsets: true,
+        allowFileAccess: true,
+        allowUniversalAccessFromFileURLs: true,
+        allowFileAccessFromFileURLs: true,
+        mixedContentMode: "always",
+        onMessage: this.onMessage,
+        source: {
+          html: this.htmlTemplate()
+        },
+        ref: function ref(webView) {
+          _this2.webView = webView;
+        }
+      }));
+    }
+  }]);
+  return Pivot;
+}(_react.default.Component);
+exports.Pivot = Pivot;
+Pivot.propTypes = {
+  afterchartdraw: _propTypes.default.func,
+  aftergriddraw: _propTypes.default.func,
+  beforegriddraw: _propTypes.default.func,
+  cellclick: _propTypes.default.func,
+  celldoubleclick: _propTypes.default.func,
+  chartclick: _propTypes.default.func,
+  datachanged: _propTypes.default.func,
+  dataerror: _propTypes.default.func,
+  datafilecancelled: _propTypes.default.func,
+  dataloaded: _propTypes.default.func,
+  fieldslistclose: _propTypes.default.func,
+  fieldslistopen: _propTypes.default.func,
+  filterclose: _propTypes.default.func,
+  filteropen: _propTypes.default.func,
+  fullscreen: _propTypes.default.func,
+  licenseKey: _propTypes.default.string,
+  loadingdata: _propTypes.default.func,
+  loadinglocalization: _propTypes.default.func,
+  loadingolapstructure: _propTypes.default.func,
+  loadingreportfile: _propTypes.default.func,
+  localizationerror: _propTypes.default.func,
+  localizationloaded: _propTypes.default.func,
+  olapstructureerror: _propTypes.default.func,
+  olapstructureloaded: _propTypes.default.func,
+  openingreportfile: _propTypes.default.func,
+  querycomplete: _propTypes.default.func,
+  queryerror: _propTypes.default.func,
+  ready: _propTypes.default.func,
+  report: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.object]),
+  reportchange: _propTypes.default.func,
+  reportcomplete: _propTypes.default.func,
+  reportfilecancelled: _propTypes.default.func,
+  reportfileerror: _propTypes.default.func,
+  reportfileloaded: _propTypes.default.func,
+  runningquery: _propTypes.default.func,
+  unauthorizederror: _propTypes.default.func,
+  update: _propTypes.default.func,
+  accessibility: _propTypes.default.object
+};
