@@ -315,7 +315,7 @@ var Pivot = /*#__PURE__*/function (_React$Component) {
           html: this.htmlTemplate()
         },
         ref: function ref(webView) {
-          _this2.webView = webView;
+          return _this2.webView = webView;
         }
       }));
     }

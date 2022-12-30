@@ -4,7 +4,7 @@ import { View } from 'react-native';
 import { WebView } from 'react-native-webview';
 
 export class Pivot extends React.Component {
-    
+
     shouldComponentUpdate() {
         return false;
     }
@@ -190,32 +190,6 @@ export class Pivot extends React.Component {
         this.runScript(`flexmonster.scrollToColumn(${this.stringifyParams(colIdx)})`);
     }
 
-    render() {
-        return (
-            <View style={{ flex: 1 }}>
-                <WebView style={{ flex: 1, backgroundColor: 'transparent' }}
-                    originWhitelist={['*']}
-                    useWebkit
-                    javaScriptEnabled
-                    domStorageEnabled
-                    scrollEnabled={false}
-                    automaticallyAdjustContentInsets
-                    allowFileAccess={true}
-                    allowUniversalAccessFromFileURLs={true}
-                    allowFileAccessFromFileURLs={true}
-                    mixedContentMode="always"
-                    onMessage={this.onMessage}
-                    source={{ html: this.htmlTemplate() }}
-                    ref={
-                        webView => {
-                            this.webView = webView;
-                        }
-                    }
-                />
-            </View>
-        );
-    }
-
     onMessage = event => {
         var messageData = JSON.parse(event.nativeEvent.data);
         var messageType = messageData.type;
@@ -388,6 +362,27 @@ export class Pivot extends React.Component {
 
         </html>
     `);
+    }
+    render() {
+        return (
+            <View style={{ flex: 1 }}>
+                <WebView style={{ flex: 1, backgroundColor: 'transparent' }}
+                    originWhitelist={['*']}
+                    useWebkit
+                    javaScriptEnabled
+                    domStorageEnabled
+                    scrollEnabled={false}
+                    automaticallyAdjustContentInsets
+                    allowFileAccess={true}
+                    allowUniversalAccessFromFileURLs={true}
+                    allowFileAccessFromFileURLs={true}
+                    mixedContentMode="always"
+                    onMessage={this.onMessage}
+                    source={{ html: this.htmlTemplate() }}
+                    ref={webView => this.webView = webView}
+                />
+            </View>
+        );
     }
 }
 Pivot.propTypes = {
