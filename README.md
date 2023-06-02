@@ -17,7 +17,7 @@ Table of contents:
 
 ## <a name="usage"></a>Usage ##
 
-Refer to [Flexmonster integration with React Native](https://www.flexmonster.com/doc/integration-with-react-native/) for details on the wrapper usage.
+Refer to the [Integration with React Native](https://www.flexmonster.com/doc/integration-with-react-native/) guide for details on the wrapper usage.
 
 ## <a name="sample-project"></a>Sample project ##
 
