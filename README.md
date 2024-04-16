@@ -1,6 +1,6 @@
 # Flexmonster Pivot Table & Charts wrapper for React Native
-[![Flexmonster Pivot Table & Charts](https://cdn.flexmonster.com/landing.png)](https://www.flexmonster.com?r=wrap)
-Website: [www.flexmonster.com](https://www.flexmonster.com?r=wrap)
+[![Flexmonster Pivot Table & Charts](https://cdn.flexmonster.com/readmes/react_native.webp)](https://www.flexmonster.com?r=wrap)
+Website: [flexmonster.com](https://www.flexmonster.com?r=wrap)
 
 ## Flexmonster Pivot Table & Charts
 
