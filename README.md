@@ -43,7 +43,7 @@ To share your feedback or ask questions, contact our Tech team by raising a tick
 
 The Flexmonster React Native wrapper is distributed under the terms and conditions of the Flexmonster Software License Agreement: [https://www.flexmonster.com/software-license-agreement/](https://www.flexmonster.com/software-license-agreement/?r=wrap).
 
-Flexmonster offers a 30-day free trial so you can evaluate our product. Pricing for commercial license models can be found on the [Flexmonster pricing page](https://www.flexmonster.com/pivot-table-editions-and-pricing?/r=wrap).
+Flexmonster offers a 30-day free trial so you can evaluate our product. Pricing for commercial license models can be found on the [Flexmonster pricing page](https://www.flexmonster.com/pivot-table-editions-and-pricing/?r=wrap).
 
 If you need any help with your license, fill out our [Contact form](https://www.flexmonster.com/contact-our-team/?r=wrap), and we will get in touch with you.
 
@@ -52,6 +52,7 @@ If you need any help with your license, fill out our [Contact form](https://www
 Follow us on social media and stay updated on our development process!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/flexmonster) [![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/user/FlexMonsterPivot) [![Twitter](https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/flexmonster)
+
 
 
 
