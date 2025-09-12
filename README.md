@@ -10,7 +10,7 @@ Website: [flexmonster.com](https://www.flexmonster.com?r=wrap)
 
 Flexmonster Pivot Table & Charts is a powerful and fully customizable JavaScript component for web reporting. It is packed with all core features for data analysis and can easily become a part of your React Native data visualization project. The tool supports popular frameworks like React, Vue, Angular, Blazor, and [more](https://www.flexmonster.com/doc/available-tutorials-integration?r=wrap). Also, Flexmonster connects to [any data source](https://www.flexmonster.com/doc/supported-data-sources?r=wrap), including SQL and NoSQL databases, JSON and CSV files, OLAP cubes, and Elasticsearch.
 
-This package is a [Flexmonster Pivot](https://www.flexmonster.com?r=wrap) wrapper for [React Native](https://reactnative.dev/) applications. 
+This package is a [Flexmonster Pivot](https://www.flexmonster.com?r=wrap) wrapper for [React Native](https://reactnative.dev/) applications. Note that the wrapper is compatible only with React 18 and earlier versions.
 
 Table of contents:
 
@@ -23,7 +23,9 @@ Table of contents:
 
 ## Integration
 
-Flexmonster documentation provides a detailed step-by-step guide on [іntegration with React Native](https://www.flexmonster.com/doc/integration-with-react-native/?r=wrap). 
+:exclamation: **The Flexmonster React Native wrapper can be used only with React 18 or earlier** :exclamation:
+
+Flexmonster documentation provides a detailed step-by-step guide on [іntegration with React Native](https://www.flexmonster.com/doc/integration-with-react-native/?r=wrap).
 
 ## Usage
 
@@ -52,6 +54,7 @@ If you need any help with your license, fill out our [Contact form](https://www
 Follow us on social media and stay updated on our development process!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/flexmonster) [![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/user/FlexMonsterPivot) [![Twitter](https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/flexmonster)
+
 
 
 
